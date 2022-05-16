@@ -1,13 +1,7 @@
-content {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-}
+
 
 /* Add some content at the bottom of the video/page */
-#myVideo {
+#video-wrapper {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -31,12 +25,3 @@ content {
   transform: translate(-50%,-50%);
 }
 
-content  {
-  background:none;
-  position: fixed;
-  width: 100%;
-  text-align: center;
-  color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
-  padding: 0.5em;
