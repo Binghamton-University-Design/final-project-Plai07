@@ -1,0 +1,33 @@
+<!-- HTML -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="css/grid.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/video.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- SEO -->
+    <meta name="description" content="This is my digital story project.">
+    <meta name="author" content="Plai Ravangpal">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Digital Story Project</title>
+
+    <script type='text/javascript'>
+        document.getElementById('myVideo').addEventListener('ended',myHandler,false);
+        function myHandler(e) {
+            window.location.href = "70s-map.html";
+        }
+    </script>
+
+  </head>
+
+<!-- The video -->
+<body>
+    <a class="video-wrapper" href="70s-map.html">
+        <video autoplay muted id="myVideo" style="position: relative; height: 100%; width: 100%;">
+            <source src="https://drive.google.com/u/1/uc?id=1ovfd6c3TDiiKQ_KGG4l9Tw0P8l97PZ-Z&export=download" type="video/mp4">
+        </video>
+    </a>
+</body>
