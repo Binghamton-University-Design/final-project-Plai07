@@ -30,8 +30,8 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
-    align-items: center;
-    justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .video-wrapper .inner .title {
@@ -47,5 +47,29 @@ body {
   z-index: 3;
   bottom: 2em;
   color: white;
+}
+
+#map-inner {
+  position: relative;
+}
+
+.seventies01 {
+  z-index: 2;
+  position: absolute;
+  width: 3em;
+  height:  3em;
+  background: paleturquoise;
+  top: 13%;
+  left: 75%;
+}
+
+.seventies02 {
+  z-index: 2;
+  position: absolute;
+  width: 3em;
+  height:  3em;
+  background: paleturquoise;
+  top: 19%;
+  left: 70%;
 }
 
